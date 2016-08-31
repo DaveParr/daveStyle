@@ -1,5 +1,5 @@
 .reveal {
-  background: #2165B6;
+  background: #824cb3;
   color: white;
 }
 
@@ -9,34 +9,34 @@
 
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: white; }
+  border-right-color: #cfcfcf; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: white; }
+  border-left-color: #cfcfcf; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: white; }
+  border-bottom-color: #cfcfcf; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: white; }
+  border-top-color: #cfcfcf; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8F220E; }
+  border-right-color: #cfcfcf; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8F220E; }
+  border-left-color: #cfcfcf; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8F220E; }
+  border-bottom-color: #cfcfcf; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8F220E; }
+  border-top-color: #cfcfcf; }
 
 .reveal pre code {
-  background: white;
+  background: #cfcfcf;
   color: black;
 }
 
