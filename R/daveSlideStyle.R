@@ -5,10 +5,10 @@
 #'
 #' @export
 #'
-stephSlideStyle<- function(css=NULL,...) {
+daveSlideStyle<- function(css=NULL,...) {
   if (is.null(css)) {
   # get the locations of resource files located within the package
-  css <- system.file("style/Look.css", package = "stephStyle")
+  css <- system.file("style/Look.css", package = "daveStyle")
   }
 
   rmarkdown::ioslides_presentation(css = css,...)
