@@ -6,7 +6,7 @@
 #'
 #' @export
 #'
-stephPDFSlideStyle<- function( template=NULL,
+davePDFSlideStyle<- function( template=NULL,
                               pandoc_args=NULL, ...) {
 
 
@@ -15,7 +15,7 @@ stephPDFSlideStyle<- function( template=NULL,
 #                      "beamerthemem")
 #   }
   if (is.null(template)) {
-    template <- system.file("style/default.tex", package = "stephStyle")
+    template <- system.file("style/default.tex", package = "daveStyle")
   }
   if (is.null(pandoc_args)) {
     pandoc_args <- list("--latex-engine=xelatex")
