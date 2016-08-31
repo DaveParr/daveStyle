@@ -6,10 +6,10 @@
 #'
 #' @export
 #'
-stephRevealSlideStyle<- function(css=NULL, options=NULL, ...) {
+daveRevealSlideStyle<- function(css=NULL, options=NULL, ...) {
   if (is.null(css)) {
   # get the locations of resource files located within the package
-  css <- system.file("style/Reveal.css", package = "stephStyle")
+  css <- system.file("style/Reveal.css", package = "daveStyle")
   }
 
   if(is.null(options)){
