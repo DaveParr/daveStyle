@@ -1,4 +1,4 @@
-Package: stephStyle
+Package: daveStyle
 Title: Render formats
 Version: 1.0.0.0
 Authors@R: person("Steph", "Locke", email = "stephanie.g.locke@gmail.com", role = c("aut", "cre"))
@@ -14,5 +14,5 @@ Suggests:
 RoxygenNote: 5.0.1
 Imports: rmarkdown,
     revealjs
-URL: https://github.com/stephlocke/stephStyle
-BugReports: https://github.com/stephlocke/stephStyle/issues
+URL: https://github.com/DaveRGP/daveStyle
+BugReports: https://github.com/DaveRGP/DaveStyle/issues
