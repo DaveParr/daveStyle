@@ -8,6 +8,6 @@
 #' @export
 #'
 #' @examples imgURL("blah.png")
-imgURL<-function(x,repo="stephlocke/lazyCDN", branch="master"){
+imgURL<-function(x,repo="DaveRGP/lazyCDN", branch="master"){
   file.path("https://raw.githubusercontent.com",repo,branch, x)
 }
