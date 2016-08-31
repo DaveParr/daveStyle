@@ -1,4 +1,4 @@
 library(testthat)
-library(stephStyle)
+library(daveStyle)
 
-test_check("stephStyle")
+test_check("daveStyle")
