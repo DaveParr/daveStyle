@@ -13,5 +13,5 @@
 Package holding formatting functions for making presentations in my preferred layouts.
 
 ``` r
-rmarkdown::render("example.Rmd", output_format = stephStyle::stephRevealSlideStyle())
+rmarkdown::render("example.Rmd", output_format = daveStyle::daveRevealSlideStyle())
 ```
