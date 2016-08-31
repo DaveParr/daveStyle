@@ -4,7 +4,7 @@
 \alias{imgURL}
 \title{Produce link to file stored on github repo}
 \usage{
-imgURL(x, repo = "stephlocke/lazyCDN", branch = "master")
+imgURL(x, repo = "DaveRGP/lazyCDN", branch = "master")
 }
 \arguments{
 \item{x}{file name}
